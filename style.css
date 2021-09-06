@@ -75,7 +75,7 @@ header {
     bottom: 5%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     header {
         flex-direction: column;
         height: 3.5rem;
@@ -135,7 +135,7 @@ nav {
     color: #f15b5c;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     nav {
         width: 100%;
         margin: 2px 0px 0px 0px;
@@ -238,7 +238,7 @@ nav {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .banner-home {
         top: 40%;
         left: 12%;
