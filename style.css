@@ -323,3 +323,21 @@ nav {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .4);
 }
+
+@media (min-width: 768px) {
+    header {
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        background-color: greenyellow;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        background-color: orangered;
+    }
+}
