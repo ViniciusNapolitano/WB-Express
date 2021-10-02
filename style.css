@@ -290,6 +290,24 @@ nav {
     }
 }
 
+@media (max-width: 1200px) {
+    .banner-home h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-home button {
+        font-size: .7rem;
+    }
+
+    .wrap-localizacao h1 {
+        font-size: .8rem;
+    }    
+
+    .wrap-localizacao .bi {
+        height: .7rem;
+    }
+}
+
 @media (max-width: 800px) {
     .banner-home {
         top: 10%;
@@ -389,6 +407,12 @@ nav {
     color: #707070;
     color: #fff;
 
+}
+
+@media (max-width: 1200px) {
+    .borda-qualidades {
+        width: 30%;        
+    }
 }
 
 @media (max-width: 800px) {
@@ -525,10 +549,21 @@ nav {
     background-color: #feab3a;
 }
 
+@media (max-width: 1200px) {
+    .wrap-contato {
+        max-width: 80%;
+    }
+
+    .wrap-buttom-contato span {
+        font-size: 1.6rem;  
+    }
+}
+
 @media (max-width: 800px) {
     .wrap-contato {
         margin: 5rem 1.5rem;
         height: 410px;
+        max-width: 90%;
     }
     
     .header-contato h1 {
@@ -550,12 +585,16 @@ nav {
         width: 20%;
         height: 100%;
     }
+
+    .wrap-buttom-contato span {
+        font-size: 1.4rem;  
+    }
 }
 
 /*------------------------------- RODAPÉ -------------------------------*/
 
 footer {
-    height: 10vh;
+    height: 5vh;
     background: -webkit-linear-gradient(to right, #feab3a, #f15b5c);
     background: linear-gradient(to right, #feab3a, #f15b5c);
 }
